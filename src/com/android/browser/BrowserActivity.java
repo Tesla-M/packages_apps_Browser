@@ -319,6 +319,7 @@ public class BrowserActivity extends Activity
                 // If request is cancelled, the result array is empty
                 if (grantResults.length > 0 &&
                         grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    DownloadHandler.checkPendingDownloads(this);
                 } else {
                     new AlertDialog.Builder(this)
                             .setTitle(R.string.permission_not_granted_dialog_title)
