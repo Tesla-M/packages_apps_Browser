@@ -12,8 +12,6 @@
      limitations under the License.
 -->
 <resources>
-    <color name="white">#000000</color>
-    <color name="black">#fafafa</color>
     <color name="primary">#000000</color>
     <color name="primary_dark">#000000</color>
     <color name="accent">#33b5e5</color>
@@ -26,19 +24,35 @@
     <color name="qc_tab_title_text_color">#DDDDDD</color>
     <color name="snapshot_item_date_text_color">#AAAAAA</color>
     <color name="snapshot_item_title_text_color">#AAAAAA</color>
-    <color name="snapshot_item_text_color">@android:color/white</color>
+    <color name="snapshot_item_text_color">#ffffff</color>
     <color name="title_bar_autologin_background">#FBF0A0</color>
     <color name="title_bar_autologin_error_text_color">#dd6826</color>
-    <color name="bookmark_sync_wizard_background">@android:color/black</color>
-    <color name="bookmark_sync_wizard_confirm_background">@android:color/black</color>
-    <color name="select_account_description_background">@android:color/black</color>
-    <color name="bookmark_thumbnail_widget_label_text_color">@android:color/white</color>
-    <color name="bookmark_thumbnail_widget_folder_label_text_color">@android:color/white</color>
-    <color name="autologin_bar_text_color">@android:color/primary_text_light</color>
-    <color name="anim_screen_image_view_background">@color/black</color>
-    <color name="nav_screen_background">@color/black</color>
-    <color name="suggestion_item_text_color">@color/white</color>
-    <color name="suggestion_item_hint_text_color">@color/white</color>
-    <color name="suggestion_item_secondary_text_color">@color/white</color>
-    <color name="suggestion_item_secondary_hint_text_color">@color/white</color>
+    <color name="bookmark_sync_wizard_background">#000000</color>
+    <color name="bookmark_sync_wizard_confirm_background">#000000</color>
+    <color name="select_account_description_background">#000000</color>
+    <color name="bookmark_thumbnail_widget_label_text_color">#ffffff</color>
+    <color name="bookmark_thumbnail_widget_folder_label_text_color">#ffffff</color>
+    <color name="autologin_bar_text_color">#ffffff</color>
+    <color name="anim_screen_image_view_background">#000000</color>
+    <color name="nav_screen_background">#000000</color>
+    <color name="suggestion_item_text_color">#ffffff</color>
+    <color name="suggestion_item_hint_text_color">#ffffff</color>
+    <color name="suggestion_item_secondary_text_color">#ffffff</color>
+    <color name="suggestion_item_secondary_hint_text_color">#ffffff</color>
+
+    <color name="bookmarkWidgetHeader">#383847</color>
+    <color name="bookmarkWidgetDivider">#383847</color>
+    <color name="bookmarkWidgetItemBackground">#2b2b3c</color>
+    <color name="bookmarkWidgetFolderBackground">#A0383847</color>
+    <color name="bookmarkWidgetFaviconBackground">#23ffffff</color>
+    <color name="bookmarkListFaviconBackground">#23ffffff</color>
+    <color name="tabFaviconBackground">#4caf50</color>
+    <color name="tabFocusHighlight">#FF99CC00</color>
+    <color name="qcMenuBackground">#C0000000</color>
+    <color name="qc_normal">#4caf50</color>
+    <color name="qc_selected">#388e3c</color>
+    <color name="qc_sub">#2e7d32</color>
+    <color name="qc_tab_nr">#2e7d32</color>
+    <color name="tabViewTitleBackground">#D0000000</color>
+    <color name="navtab_bg">#80606060</color>
 </resources>
